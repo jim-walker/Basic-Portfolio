@@ -8,7 +8,7 @@ body {
 }
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 1em;
+    padding: 32px;
     width: auto;
 }
 
@@ -105,29 +105,27 @@ a {
     padding: 0;
     width: 50%;
 }
-.contact {
+.myContact {
     width: 900px;
     padding: 0px 20px 0px 20px;
 }
 
-.contact label {
+label {
 	display: block;
-	padding-bottom: 0.5em;
+	padding-bottom: 5px;
 }
 
-.contact input, .contact textarea {
+input, textarea {
 	width: 100%;
 	border: 1px solid #cccccc;
-	margin-bottom: 1.5em;
-	padding: 1em;
-	font-size: .9em;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
-.contact input[type="submit"] {
+input[type="submit"] {
 	width: auto;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	border: none;
-	padding: 1em 2em;
-	font-size: 1em;
+	padding: 20px 30px;
 }
