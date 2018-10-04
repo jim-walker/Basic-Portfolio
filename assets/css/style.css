@@ -129,3 +129,16 @@ input[type="submit"] {
 	border: none;
 	padding: 20px 30px;
 }
+
+.myPort {
+    padding: 20px;
+}
+
+.myPort img {
+    padding-right: 35px;
+    padding-bottom: 30px;
+}
+
+.myPort img:nth-child(4n+0) {
+    padding-right: 0px;
+}
